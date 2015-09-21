@@ -3,7 +3,7 @@ Title: Weight TAPS Data
 Version: 0.1
 Author: David G. Carlson, Michelle Torres, and Taeyong Park
 Maintainer: David G. Carlson <carlson.david@wustl.edu>
-Description: Subset TAPS data, model attrition rates, and provide weights for analysis
+Description: The weightTAPSPACK subsets The American Panel Survey (TAPS) data by outcome and covariates, models the attrition rates, imputes data for attrited individuals, and finds weights for analysis.
 Depends:
     R (>= 3.0.0),
     methods,

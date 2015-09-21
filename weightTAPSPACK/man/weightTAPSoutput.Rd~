@@ -15,6 +15,13 @@
 \alias{weightTAPSoutput}
 \alias{weightTAPSoutput-class}
 \title{An object outputted by weightTAPS function}
+\usage{
+getdf(object = "weightTAPSoutput")
+
+getattrit(object = "weightTAPSoutput")
+
+getstats(object = "weightTAPSoutput")
+}
 \description{
 Objects of class \code{weightTAPSoutput} are created by the \code{weightTAPS} function
 }

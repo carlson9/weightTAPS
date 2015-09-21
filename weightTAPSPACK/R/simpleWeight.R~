@@ -33,7 +33,7 @@ setMethod(f="simpleWeight",
                 tapsdesign <- svydesign(ids = ~1, strata = NULL, data=data, weights = ~baseweights)
               }else{
                 tapsdesign <- svydesign(ids = ~1, strata = ~strata, data=data, weights = ~baseweights)
-                test<-try(rake(tapsdesign, sample.margins=names, population.margins = pop.margins, control=list(maxit=100,epsilon=1,verbose=FALSE)),silent=TRUE)
+                test<-try(rake(tapsdesign, sample=names, population = pop.margins, control=list(maxit=100,epsilon=1,verbose=FALSE)),silent=TRUE)
                 if(class(test)[[1]]=="try-error"){
                   print("Strata were missing in the subsetted data and had to be set to NULL.\n Consider not using baseweights.")
                   c<-readline("\n Press enter to continue:")
@@ -41,7 +41,7 @@ setMethod(f="simpleWeight",
                 }
               }
             }
-            taps.design.raked <- rake(tapsdesign, sample.margins=names, population.margins = pop.margins, control=list(maxit=100,epsilon=1,verbose=FALSE))
+            taps.design.raked <- rake(tapsdesign, sample=names, population = pop.margins, control=list(maxit=100,epsilon=1,verbose=FALSE))
             n.obs<-length(weights(taps.design.raked))
             if(max(weights(taps.design.raked))>=(trunc_at/n.obs)){
               print(paste('Warning - the weights will be truncated. The highest pre-truncated weight is: ', max(weights(taps.design.raked))*n.obs))

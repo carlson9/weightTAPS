@@ -131,7 +131,7 @@ setMethod(f="plot", "weightTAPSoutput",
             holdpar <- par(no.readonly=TRUE)
             par(ask=TRUE, oma=c(4,1,1,1))
             dotchart(as.matrix(unlist(x@attrit))[,1],labels=names((unlist(x@attrit))),cex=0.5, 
-                     main="Atrrition Rates", col=rainbow(31, start=0.7, end=0.1))            
+                     main="Atrrition Rates", col=rainbow(31, star=0.7, end=0.1))            
             for (i in 1:length(statWaves)){
               par(ask=TRUE, oma=c(4,1,1,1), mar=c(5.1,4.1,4.1,2.1))
               Waves <- colnames(statWaves[[i]])

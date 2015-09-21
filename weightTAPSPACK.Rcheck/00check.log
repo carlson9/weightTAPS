@@ -1,0 +1,34 @@
+* using log directory ‘/home/david/weightTAPS/weightTAPSPACK.Rcheck’
+* using R version 3.2.2 (2015-08-14)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘weightTAPSPACK/DESCRIPTION’ ... OK
+* this is package ‘weightTAPSPACK’ version ‘0.1’
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: ‘David G. Carlson <carlson.david@wustl.edu>’
+New submission
+
+Checking URLs requires 'libcurl' support in the R build
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+  No repository set, so cyclic dependency check skipped
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  R/.Rhistory
+  demo/.Rapp.history
+  man/.Rapp.history
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+
+CRAN-pack knows about all of these
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘weightTAPSPACK’ can be installed ... ERROR
+Installation failed.
+See ‘/home/david/weightTAPS/weightTAPSPACK.Rcheck/00install.out’ for details.
+* DONE
+Status: 1 ERROR, 3 NOTEs
