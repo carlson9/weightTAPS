@@ -1,0 +1,179 @@
+
+R version 3.2.2 (2015-08-14) -- "Fire Safety"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "weightTAPSPACK"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> base::assign(".ExTimings", "weightTAPSPACK-Ex.timings", pos = 'CheckExEnv')
+> base::cat("name\tuser\tsystem\telapsed\n", file=base::get(".ExTimings", pos = 'CheckExEnv'))
+> base::assign(".format_ptime",
++ function(x) {
++   if(!is.na(x[4L])) x[1L] <- x[1L] + x[4L]
++   if(!is.na(x[5L])) x[2L] <- x[2L] + x[5L]
++   options(OutDec = '.')
++   format(x[1L:3L], digits = 7L)
++ },
++ pos = 'CheckExEnv')
+> 
+> ### * </HEADER>
+> library('weightTAPSPACK')
+Loading required package: survey
+Loading required package: grid
+
+Attaching package: ‘survey’
+
+The following object is masked from ‘package:graphics’:
+
+    dotchart
+
+Loading required package: plyr
+Loading required package: HotDeckImputation
+Loading required package: mice
+Loading required package: Rcpp
+Loading required package: lattice
+mice 2.22 2014-06-10
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("variablesTAPS")
+> ### * variablesTAPS
+> 
+> flush(stderr()); flush(stdout())
+> 
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: variablesTAPS
+> ### Title: Lists names of variables by wave
+> ### Aliases: variablesTAPS variablesTAPS,ANY-method
+> 
+> ### ** Examples
+> 
+> variablesTAPS(month=c("Feb","Mar"), year=c(2012,2012))
+$`Feb 2012`
+  [1] "APPRCONGS3"       "APPRDEMSS3"       "APPRHOUS3"       
+  [4] "APPRPRESS3"       "APPRREPSS3"       "APPRSCRTS3"      
+  [7] "APPRSEN1S3"       "APPRSEN2S3"       "ECON1AS3"        
+ [10] "ECON1BS3"         "ECON2AS3"         "ECON2BS3"        
+ [13] "ECON4AS3"         "ECON4BS3"         "ELECDIFFS3"      
+ [16] "EMPL10S3"         "EMPL11S3"         "EMPL11S3.Other"  
+ [19] "EMPL12S3"         "EMPL13S3"         "EMPL14S3"        
+ [22] "EMPL15S3"         "EMPL17S3"         "EMPL18S3"        
+ [25] "EMPL4S3"          "EMPL5S3"          "EMPL6S3"         
+ [28] "EMPL7S3"          "EMPL7S3.Other"    "EMPL8S3"         
+ [31] "EMPL9S3"          "HARD1S3"          "HARD2S3"         
+ [34] "HRPRTYS3"         "IDEOLBOS3"        "IDEOLDEMSS3"     
+ [37] "IDEOLHRS3"        "IDEOLREPSS3"      "IDEOLS1S3"       
+ [40] "IDEOLS2S3"        "NA1S3"            "Order.APPRCONGS3"
+ [43] "Order.APPRDEMSS3" "Order.APPRHOUS3"  "Order.APPRPRESS3"
+ [46] "Order.APPRREPSS3" "Order.APPRSCRTS3" "Order.APPRSEN1S3"
+ [49] "Order.APPRSEN2S3" "Order.PERANXS3"   "Order.PERCALS3"  
+ [52] "Order.PERCONS3"   "Order.PERCRIS3"   "Order.PERDEPS3"  
+ [55] "Order.PERDISS3"   "Order.PEREXTRS3"  "Order.PEROPES3"  
+ [58] "Order.PERRESS3"   "Order.PERSYMS3"   "PERANXS3"        
+ [61] "PERCALS3"         "PERCONS3"         "PERCRIS3"        
+ [64] "PERDEPS3"         "PERDISS3"         "PEREXTRS3"       
+ [67] "PEROPES3"         "PERRESS3"         "PERSYMS3"        
+ [70] "PR1S3"            "PR2S3"            "PR3S3"           
+ [73] "PR4S3"            "PR5S3"            "PR6S3"           
+ [76] "PR7S3"            "PRFU1S3"          "PRFU2S3"         
+ [79] "PRFU3S3"          "PRFU4S3"          "PRFU5S3"         
+ [82] "PRFU6S3"          "PRFU7S3"          "S1PRTYS3"        
+ [85] "S2PRTYS3"         "VOTEOFTENS3"      "VOTEPASTS3"      
+ [88] "VOTEPLAN1S3"      "VOTEPLAN2S3"      "VOTETHTS3"       
+ [91] "VOTEWHERES3"      "VT1S3"            "VT2S3"           
+ [94] "VT3S3"            "VT4S3"            "VT5S3"           
+ [97] "VT6S3"            "VT7S3"            "VT8S3"           
+[100] "SEQ4S3"           "SEQ4S3.x"         "SEQ4S3.y"        
+[103] "SEQ6S3"          
+
+$`Mar 2012`
+ [1] "APPRCONGS4"            "APPRDEMSS4"            "APPRHOUS4"            
+ [4] "APPRPRESS4"            "APPRREPSS4"            "APPRSCRTS4"           
+ [7] "APPRSEN1S4"            "APPRSEN2S4"            "CRTN1S4"              
+[10] "CRTN2S4"               "ECON1AS4"              "ECON1BS4"             
+[13] "ECON2AS4"              "ECON2BS4"              "ECON4AS4"             
+[16] "ECON4BS4"              "ELECDIFFS4"            "EMPL10S4"             
+[19] "EMPL11S4"              "EMPL11S4.Other"        "EMPL12S4"             
+[22] "EMPL13S4"              "EMPL14S4"              "EMPL15S4"             
+[25] "EMPL17S4"              "EMPL18S4"              "EMPL1S4"              
+[28] "EMPL2S4.A"             "EMPL2S4.B"             "EMPL2S4.C"            
+[31] "EMPL2S4.D"             "EMPL2S4.E"             "EMPL2S4.F"            
+[34] "EMPL2S4.G"             "EMPL2S4.Other"         "EMPL3S4"              
+[37] "EMPL4S4"               "EMPL5S4"               "EMPL6S4"              
+[40] "EMPL7S4"               "EMPL7S4.Other"         "EMPL8S4"              
+[43] "EMPL9S4"               "HRPRTYS4"              "mar2012wt1S4"         
+[46] "NA1S4"                 "Order.APPRCONGS4"      "Order.APPRDEMSS4"     
+[49] "Order.APPRHOUS4"       "Order.APPRPRESS4"      "Order.APPRREPSS4"     
+[52] "Order.APPRSCRTS4"      "Order.APPRSEN1S4"      "Order.APPRSEN2S4"     
+[55] "Order.REPPREF2012S4.a" "Order.REPPREF2012S4.b" "Order.REPPREF2012S4.c"
+[58] "Order.REPPREF2012S4.d" "PRES2012GINS4"         "PRES2012ROMS4"        
+[61] "PRES2012SANS4.x"       "PRES2012SANS4.y"       "REPPREF2012S4.a"      
+[64] "REPPREF2012S4.b"       "REPPREF2012S4.c"       "REPPREF2012S4.d"      
+[67] "S1PRTYS4"              "S2PRTYS4"              "VOTEOFTENS4"          
+[70] "VOTEPASTS4"            "VOTEPASTSS4"           "VOTEPLAN1S4"          
+[73] "VOTEPLAN2S4"           "VOTETHTSS4"            "VOTEWHERESS4"         
+[76] "VTTXDEMSS4"            "VTTXHRS4"              "VTTXPRESS4"           
+[79] "VTTXREPS4"             "VTTXS1S4"              "VTTXS2S4"             
+[82] "VTTXYOUS4"             "SEQ4S4"                "SEQ4S4.x"             
+[85] "SEQ4S4.y"              "SEQ6S4"               
+
+> 
+> 
+> 
+> base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+> base::cat("variablesTAPS", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+> cleanEx()
+> nameEx("weightTAPS")
+> ### * weightTAPS
+> 
+> flush(stderr()); flush(stdout())
+> 
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: weightTAPS
+> ### Title: Subset TAPS data and find weights
+> ### Aliases: weightTAPS weightTAPS,ANY-method
+> 
+> ### ** Examples
+> 
+> myOutcome <- c("APPRCONGS2","APPRCONGS6")
+> myCovars <- c("POLKNOW3S2","POLKNOW6S2")
+> test<-weightTAPS(interact=FALSE,outcome=myOutcome,
++     covars=myCovars,weight=FALSE,refusedasNA=TRUE,
++     method="hotdeck",m=5,pop.base=1,trunc_at=5,stringsAsFactors=TRUE)
+[1] "Warning - the weights will be truncated. The highest pre-truncated weight is:  16.2074434481888"
+
+ Press enter to continue:
+> 
+> 
+> 
+> base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+> base::cat("weightTAPS", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+> ### * <FOOTER>
+> ###
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  1.884 0.056 1.94 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

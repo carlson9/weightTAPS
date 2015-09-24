@@ -1,0 +1,16 @@
+TAPScum                 TAPS data
+TAPSimputeddemographics
+                        TAPS demographics data
+attritTAPS              Find attrition stats for TAPS waves
+dd                      TAPS imputed demographics
+hotdeckImp              Impute data using hotdeck imputation method
+multipleImp             Impute data using multiple imputation method
+pop.margins             Population margins
+simpleWeight            Find weights for survey data
+subsetTAPS              Subset TAPS data
+variablesTAPS           Lists names of variables by wave
+wavesTAPS               Find population statistics for different waves
+weightTAPS              Subset TAPS data and find weights
+weightTAPSPACK          weightTAPSPACK
+weightTAPSoutput-class
+                        An object outputted by weightTAPS function

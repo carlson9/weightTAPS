@@ -21,7 +21,6 @@ setGeneric(name="subsetTAPS",
 
 setMethod(f="subsetTAPS",
           definition=function(outcome,covars=NULL,weight=FALSE,refusedasNA=TRUE){
-            
 
             if(weight) weighter<-as.numeric(dd$basewt) else weighter<-1
             if(is.null(covars)){

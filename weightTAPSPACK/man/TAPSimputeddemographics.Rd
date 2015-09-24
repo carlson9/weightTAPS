@@ -13,5 +13,5 @@
 \code{\link{weightTAPSoutput}} \code{\link{simpleWeight}}
 \code{\link{attritTAPS}} \code{\link{multipleImp}}
 \code{\link{hotdeckImp}} \code{\link{subsetTAPS}} 
-\code{\link{wavesTAPS}} \code{\link{TAPSdata}}
+\code{\link{wavesTAPS}}
 }

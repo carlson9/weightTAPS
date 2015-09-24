@@ -100,6 +100,7 @@ setGeneric(name="weightTAPS",
 
 setMethod(f="weightTAPS",
           definition=function(interact=TRUE,outcome=NULL,covars=NULL,weight=FALSE,refusedasNA=TRUE,method="multi",na.delete=TRUE,m=5,pop.base=1,trunc_at=5,stringsAsFactors=TRUE){
+
             if(interact){
               outcome<-readline("Input the first outcome variable of interest:")
               i<-1

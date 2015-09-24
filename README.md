@@ -11,8 +11,10 @@ test<-weightTAPS(interact=FALSE,outcome=myOutcome,covars=myCovars,weight=FALSE,r
 
 Installation:
 
-Ensure the packages survey, plyr, HotDeckImputation, and mice are installed and up-to-date. Then download the .tgz file for a Mac or Linux OS, and the .zip for a Windows OS. Run the following code:
-install.packages("file-path/weightTAPSPACK_0.1.tgz", repos = NULL, type ="source")
-with the extension either tgz or zip. Occasionally it is necessary to restart your R session after installation for a call to library to work.
+Ensure the packages survey, plyr, HotDeckImputation, and mice are installed and up-to-date. Then download the tar.gz. Run the following code:
+
+install.packages("file-path/weightTAPSPACK_0.1.tar.gz", repos = NULL, type ="source")
+
+Occasionally it is necessary to restart your R session after installation for a call to library to work.
 
 For more detail, after installation view the help files.

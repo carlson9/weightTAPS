@@ -59,6 +59,6 @@ The plots aim to show the variation in the composition of the sociodemographic g
 David Carlson \email{carlson.david@wustl.edu},  Michelle Torres \email{smtorres@wustl}, and Taeyong Park \email{t.park@wustl.edu}
 }
 \seealso{
-\code{\link{weightTAPSPACK}} \code{\link{weightTAPS}} \code{link{variablesTAPS}} \code{\link{subsetTAPS}} \code{\link{wavesTAPS}} \code{\link{simpleWeight}} \code{\link{attritTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}  \code{\link{TAPSdata}} \code{\link{TAPSimputeddemographics}}
+\code{\link{weightTAPSPACK}} \code{\link{weightTAPS}} \code{link{variablesTAPS}} \code{\link{subsetTAPS}} \code{\link{wavesTAPS}} \code{\link{simpleWeight}} \code{\link{attritTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}
 }
 
