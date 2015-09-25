@@ -8,8 +8,6 @@
 * checking CRAN incoming feasibility ... NOTE
 Maintainer: ‘David G. Carlson <carlson.david@wustl.edu>’
 New submission
-
-Checking URLs requires 'libcurl' support in the R build
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -22,9 +20,7 @@ Checking URLs requires 'libcurl' support in the R build
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
-* checking top-level files ... NOTE
-Non-standard file/directory found at top level:
-  ‘NAMESPACE~’
+* checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK
@@ -51,13 +47,8 @@ Non-standard file/directory found at top level:
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking R/sysdata.rda ... NOTE
-  
-  Note: significantly better compression could be obtained
-        by using R CMD build --resave-data
-              old_size new_size compress
-  sysdata.rda    6.8Mb    3.0Mb       xz
+* checking R/sysdata.rda ... OK
 * checking examples ... OK
 * checking PDF version of manual ... OK
 * DONE
-Status: 3 NOTEs
+Status: 1 NOTE

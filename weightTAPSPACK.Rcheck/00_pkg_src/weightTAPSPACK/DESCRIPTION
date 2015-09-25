@@ -10,4 +10,3 @@ LazyDataCompression: xz
 LazyData: yes
 NeedsCompilation: no
 Packaged: 2015-09-25 22:21:51 UTC; david
-Built: R 3.2.2; ; 2015-09-25 22:24:42 UTC; unix
