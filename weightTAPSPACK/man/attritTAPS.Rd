@@ -21,6 +21,6 @@ Find response attrition statistics for TAPS waves
 David G. Carlson \email{carlson.david@wustl.edu} Michelle Torres: \email{smtorres@wustl} Taeyong Park \email{t.park@wustl.edu}
 }
 \seealso{
-\code{\link{weightTAPSPACK}} \code{\link{weightTAPS}} \code{link{variablesTAPS}} \code{\link{weightTAPSoutput}} \code{\link{simpleWeight}} \code{\link{subsetTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}
+\code{\link{weightTAPSPACK}} \code{\link{weightTAPS}} \code{\link{variablesTAPS}} \code{\link{weightTAPSoutput}} \code{\link{simpleWeight}} \code{\link{subsetTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}
 }
 

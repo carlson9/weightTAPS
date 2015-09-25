@@ -10,7 +10,7 @@
 #' @return A vector of weights
 #' @docType methods
 #' @author David G. Carlson \email{carlson.david@@wustl.edu}  Michelle Torres: \email{smtorres@@wustl} Taeyong Park \email{t.park@@wustl.edu}
-#' @seealso \code{\link{weightTAPSPACK}} \code{\link{weightTAPS}} \code{link{variablesTAPS}} \code{\link{weightTAPSoutput}} \code{\link{subsetTAPS}} \code{\link{attritTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}
+#' @seealso \code{\link{weightTAPSPACK}} \code{\link{weightTAPS}} \code{\link{variablesTAPS}} \code{\link{weightTAPSoutput}} \code{\link{subsetTAPS}} \code{\link{attritTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}
 #' @rdname simpleWeight
 #' @aliases simpleWeight,ANY-method
 #' @export

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.17)  24 SEP 2015 16:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.24)  25 SEP 2015 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -686,8 +686,8 @@ LaTeX Font Info:    Try loading font information for T1+zi4 on input line 19.
 File: t1zi4.fd 2013/06/09 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 27.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 27.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -707,15 +707,10 @@ File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (19.27982pt too wide) in paragraph at lines 57--58
-[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] link{variablesTA
-PS} [][]weightTAPSoutput[][][] [][]simpleWeight[][][] [][]subsetTAPS[][][]
- []
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-Overfull \hbox (31.17924pt too wide) in paragraph at lines 77--82
+Overfull \hbox (31.17924pt too wide) in paragraph at lines 76--81
 [][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] [][]weightTAPSou
 tput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]multipleImp[][][] []
 []hotdeckImp[][][]
@@ -724,23 +719,13 @@ tput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]multipleImp[][][] []
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [2]
-Overfull \hbox (19.27982pt too wide) in paragraph at lines 116--117
-[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] link{variablesTA
-PS} [][]weightTAPSoutput[][][] [][]simpleWeight[][][] [][]subsetTAPS[][][]
- []
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [3]
-Overfull \hbox (19.27982pt too wide) in paragraph at lines 153--154
-[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] link{variablesTA
-PS} [][]weightTAPSoutput[][][] [][]simpleWeight[][][] [][]subsetTAPS[][][]
- []
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-Overfull \hbox (31.17924pt too wide) in paragraph at lines 173--178
+Overfull \hbox (31.17924pt too wide) in paragraph at lines 172--177
 [][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] [][]weightTAPSou
 tput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]multipleImp[][][] []
 []hotdeckImp[][][]
@@ -749,23 +734,19 @@ tput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]multipleImp[][][] []
 [4] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-Overfull \hbox (9.27922pt too wide) in paragraph at lines 215--216
-[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] link{variablesTA
-PS} [][]weightTAPSoutput[][][] [][]subsetTAPS[][][] [][]attritTAPS[][][]
+Overfull \hbox (36.17805pt too wide) in paragraph at lines 214--215
+[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] [][]variablesTAP
+S[][][] [][]weightTAPSoutput[][][] [][]subsetTAPS[][][] [][]attritTAPS[][][] []
+[]multipleImp[][][]
  []
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [5]
-Overfull \hbox (19.27982pt too wide) in paragraph at lines 252--253
-[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] link{variablesTA
-PS} [][]weightTAPSoutput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][]
- []
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [6]
-Overfull \hbox (31.17924pt too wide) in paragraph at lines 276--281
+Overfull \hbox (31.17924pt too wide) in paragraph at lines 275--280
 [][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] [][]weightTAPSou
 tput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]multipleImp[][][] []
 []hotdeckImp[][][]
@@ -774,7 +755,7 @@ tput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]multipleImp[][][] []
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-Overfull \hbox (31.17924pt too wide) in paragraph at lines 304--309
+Overfull \hbox (31.17924pt too wide) in paragraph at lines 303--308
 [][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] [][]weightTAPSou
 tput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]multipleImp[][][] []
 []hotdeckImp[][][]
@@ -783,7 +764,7 @@ tput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]multipleImp[][][] []
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [7]
-Overfull \hbox (31.17865pt too wide) in paragraph at lines 341--342
+Overfull \hbox (31.17865pt too wide) in paragraph at lines 340--341
 [][][]\T1/zi4/m/n/10 weightTAPS[][][] [][]weightTAPSPACK[][][] [][]subsetTAPS[]
 [][] [][]weightTAPSoutput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][
 ]multipleImp[][][]
@@ -792,21 +773,16 @@ Overfull \hbox (31.17865pt too wide) in paragraph at lines 341--342
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [8]
-Overfull \hbox (19.27982pt too wide) in paragraph at lines 378--379
-[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] link{variablesTA
-PS} [][]weightTAPSoutput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][]
- []
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [9]
-Overfull \hbox (2.88681pt too wide) in paragraph at lines 430--433
+Overfull \hbox (2.88681pt too wide) in paragraph at lines 429--432
 \T1/ptm/m/n/10 ier in-ter-pre-ta-tion of the at-tri-tion rates. Other ar-gu-men
 ts are listed in the help file of the \T1/zi4/m/n/10 weightTAPS()
  []
 
 [10]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 491.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 490.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -814,22 +790,22 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ) [12]
-Overfull \hbox (36.17865pt too wide) in paragraph at lines 580--581
-[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] link{variablesTA
-PS} [][]subsetTAPS[][][] [][]wavesTAPS[][][] [][]simpleWeight[][][] [][]attritT
-APS[][][]
+Overfull \hbox (6.17805pt too wide) in paragraph at lines 579--580
+[][][]\T1/zi4/m/n/10 weightTAPSPACK[][][] [][]weightTAPS[][][] [][]variablesTAP
+S[][][] [][]subsetTAPS[][][] [][]wavesTAPS[][][] [][]simpleWeight[][][] [][]att
+ritTAPS[][][]
  []
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-Overfull \hbox (2.88681pt too wide) in paragraph at lines 597--600
+Overfull \hbox (2.88681pt too wide) in paragraph at lines 596--599
 \T1/ptm/m/n/10 ier in-ter-pre-ta-tion of the at-tri-tion rates. Other ar-gu-men
 ts are listed in the help file of the \T1/zi4/m/n/10 weightTAPS()
  []
 
 [13]
-Overfull \hbox (26.17865pt too wide) in paragraph at lines 657--658
+Overfull \hbox (26.17865pt too wide) in paragraph at lines 656--657
 [][][]\T1/zi4/m/n/10 weightTAPS[][][] [][]variablesTAPS[][][] [][]subsetTAPS[][
 ][] [][]weightTAPSoutput[][][] [][]simpleWeight[][][] [][]attritTAPS[][][] [][]
 multipleImp[][][]
@@ -843,27 +819,27 @@ LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 [16
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 660.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 660.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 659.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 659.
  (./Rd2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 660.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 660.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 659.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 659.
 Package rerunfilecheck Info: File `Rd2.out' has not changed.
 (rerunfilecheck)             Checksum: 8EFD717F4E8C85BF8EB2210A4D16F7BE;826.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 660.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 659.
  ) 
 Here is how much of TeX's memory you used:
- 6503 strings out of 493304
- 93541 string characters out of 6139871
+ 6503 strings out of 493308
+ 93541 string characters out of 6140092
  171187 words of memory out of 5000000
  9694 multiletter control sequences out of 15000+600000
  38185 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,5n,34p,418b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,34p,433b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/share/texlive/texmf-
 dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/te
@@ -871,10 +847,9 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (16 pages, 111302 bytes).
+Output written on Rd2.pdf (16 pages, 174842 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
+ 547 PDF objects out of 1000 (max. 8388607)
  145 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

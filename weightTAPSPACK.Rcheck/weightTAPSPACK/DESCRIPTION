@@ -8,6 +8,4 @@ Depends: R (>= 3.0.0), methods, survey, plyr, HotDeckImputation, mice
 License: GPL (>= 2)
 LazyDataCompression: xz
 LazyData: yes
-NeedsCompilation: no
-Packaged: 2015-09-24 21:20:39 UTC; david
-Built: R 3.2.2; ; 2015-09-24 21:23:07 UTC; unix
+Built: R 3.2.2; ; 2015-09-25 22:06:42 UTC; unix

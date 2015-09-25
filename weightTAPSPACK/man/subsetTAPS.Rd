@@ -27,6 +27,6 @@ Subset TAPS data by outcome and covariates specified.
 David G. Carlson \email{carlson.david@wustl.edu}  Michelle Torres: \email{smtorres@wustl} Taeyong Park \email{t.park@wustl.edu}
 }
 \seealso{
-\code{\link{weightTAPSPACK}} \code{\link{weightTAPS}} \code{link{variablesTAPS}} \code{\link{weightTAPSoutput}} \code{\link{simpleWeight}} \code{\link{attritTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}
+\code{\link{weightTAPSPACK}} \code{\link{weightTAPS}} \code{\link{variablesTAPS}} \code{\link{weightTAPSoutput}} \code{\link{simpleWeight}} \code{\link{attritTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}
 }
 

@@ -4,7 +4,7 @@
 #' @name weightTAPSPACK
 #' @docType package
 #' @author David Carlson \email{carlson.david@@wustl.edu}, Michelle Torres \email{smtorres@@wustl}, and Taeyong Park \email{t.park@@wustl.edu}
-#' @seealso \code{\link{weightTAPS}} \code{\link{variablesTAPS}} \code{\link{subsetTAPS}} \code{\link{weightTAPSoutput}} \code{\link{simpleWeight}} \code{\link{attritTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}  \code{\link{TAPScum}} \code{\link{TAPSimputeddemographics}}
+#' @seealso \code{\link{weightTAPS}} \code{\link{variablesTAPS}} \code{\link{subsetTAPS}} \code{\link{weightTAPSoutput}} \code{\link{simpleWeight}} \code{\link{attritTAPS}} \code{\link{multipleImp}} \code{\link{hotdeckImp}} \code{\link{wavesTAPS}}
 #' @details
 #' This package is meant to subset The American Panel Survey (TAPS) data by outcome and by covariate variables of interest through the function \code{\link{weightTAPS}}.
 #' The subsetting process accounts for respondents attriting from at least one of the waves under analysis, as well as for outcome non-response.

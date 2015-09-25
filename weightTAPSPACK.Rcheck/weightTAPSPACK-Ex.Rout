@@ -167,7 +167,7 @@ $`Mar 2012`
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.884 0.056 1.94 0 0 
+Time elapsed:  4.571 0.192 5.93 0 0 
 > grDevices::dev.off()
 null device 
           1 
